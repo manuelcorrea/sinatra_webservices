@@ -3,7 +3,14 @@ get '/sample' do
 end
 
 
-get '/name/:name' do 
+get '/name/:name' do
   "Hello #{params[:name]}!"
 end
 
+
+get '/foo/bar' do
+  'foo bar'
+end
+
+get '/foo/bar/baz' do 
+    end 

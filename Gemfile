@@ -8,4 +8,5 @@ group :test do
   gem 'rake', '10.2.2'
   gem 'simplecov', '0.8.2'
   gem 'rack-test', '0.6.2'
+  gem 'guard-rspec', '4.3.0'
 end
