@@ -6,7 +6,7 @@ task :default=>[:spec]
 
 desc "Run all spec tests"
 RSpec::Core::RakeTask.new('spec') do |t|
-  t.pattern = ['spec/*_spec.rb']
+  t.pattern = ['test/spec/*_spec.rb']
   t.rspec_opts = "-fd -c"
 end
 

@@ -7,3 +7,9 @@ guard 'rspec', cmd: 'rspec', :spec_paths => ["test/spec"] do
   watch(%r{^lib/(.+)\.rb$})          { |m| "test/spec/#{m[1]}_spec.rb" }
   watch('test/test_helper.rb')       { "test/spec" }
 end
+
+guard "rubycritic" do
+  watch(%r{^app/(.+)\.rb$})
+  watch(%r{^lib/(.+)\.rb$})
+  watch(%r{^controllers/(.+)\.rb$})
+end

@@ -1,0 +1,47 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/mcorrea/github/personal/sinatra_webservices/app.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        2
+      ],
+      "/Users/mcorrea/github/personal/sinatra_webservices/config/default.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/mcorrea/github/personal/sinatra_webservices/config/test.rb": [
+
+      ],
+      "/Users/mcorrea/github/personal/sinatra_webservices/controllers/sample.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null
+      ]
+    },
+    "timestamp": 1413547722
+  }
+}
