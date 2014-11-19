@@ -1,5 +1,5 @@
 get '/sample' do
-  'Hello world' 
+  'Foo bar' 
 end
 
 get '/name/:name' do
