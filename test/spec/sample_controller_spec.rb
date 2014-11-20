@@ -9,6 +9,6 @@ describe Sinatra::Application, "#sample controller" do
 
   it "can successfully get sample" do
     get "/sample"
-    last_response.body.should eq 'Hello world' 
+    last_response.body.should eq 'Foo bar' 
   end
 end
