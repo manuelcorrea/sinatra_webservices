@@ -2,3 +2,12 @@ os: linux
 files:
   - source: /
     destination: /opt/sinatra_app
+hooks:
+  BeforeInstall:
+    - location: scripts/before.sh
+  AfterInstall:
+    - location: scripts/after.sh
+  ApplicationStart:
+    - location: script/appstart.sh
+  ValidateService:
+    - location: scripts/validate.sh
