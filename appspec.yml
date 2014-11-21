@@ -8,6 +8,7 @@ hooks:
     - location: scripts/before.sh
   AfterInstall:
     - location: scripts/after.sh
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/appstart.sh
   ValidateService:
