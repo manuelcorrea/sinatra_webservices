@@ -1,4 +1,4 @@
 os: linux
 files:
-  - source: source
-    destination: sinatra_web
+  - source: /
+    destination: /opt/sinatra_app
