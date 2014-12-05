@@ -14,3 +14,7 @@ end
 get '/test/me' do
   'yes i am working 123456'
 end
+
+get '/ws' do 
+  'anotehr ws directly in master'
+end
