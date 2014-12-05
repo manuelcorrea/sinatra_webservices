@@ -17,4 +17,3 @@ task :coverage do
   `open coverage/index.html` if RUBY_PLATFORM.downcase.include?("darwin")
 end
 
-puts 'testing'
